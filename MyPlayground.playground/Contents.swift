@@ -129,20 +129,24 @@ import Cocoa
 //}
 //
 
-var statusCode: Int = 204
-var errorString: String = "the requrest failed with the error"
-
-switch statusCode{
-case 100,101:
-    errorString += "successful but not connect, 204"
-case 204:
-    errorString += "Successful but no connect, 204"
-case 300...307:
-    errorString += "redirection, \(statusCode)."
-default:
-    errorString += "Unexpected error encountered"
-}
-
-print(errorString)
+//var statusCode: Int = 204
+//var errorString: String = "the requrest failed with the error"
+//
+//switch statusCode{
+//case 100,101:
+//    errorString += "successful but not connect, 204"
+//case 204:
+//    errorString += "Successful but no connect, 204"
+//case 300...307:
+//    errorString += "redirection, \(statusCode)."
+//default:
+//    errorString += "Unexpected error encountered"
+//}
+//
+//
+//
+//
+//
+//print(errorString)
 
 
