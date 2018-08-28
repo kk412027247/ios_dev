@@ -1,7 +1,7 @@
 import Cocoa
 
 //var str = "Hello, playground"
-func printGreeting(){
+func printGreeting() ->Void{
     print("Hello, playground.")
 }
 printGreeting()
