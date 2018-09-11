@@ -24,18 +24,38 @@ let volunteersSort = volunteerCounts.sorted { $0 < $1}
 volunteersSort
 
 //func makeTownGrand() -> (Int, Int) -> Int {
-//    func buildRoads( lights: Int,  existingLights: Int) -> Int{
+//    func buildRoads( _ lights: Int, _ existingLights: Int)-> Int {
 //        return lights + existingLights
 //    }
-//    return buildRoads
+//    return buildRoads;
 //}
 //
 //var stoplights = 4
-////let townPlanByAddingLightsToExistingLisghts = makeTownGrand()
-////stoplights = townPlanByAddingLightsToExistingLisghts(4, stoplights)
-//
-//stoplights = makeTownGrand()(4, stoplights)
-//
-//
-//print("knowhere has \(stoplights) stoplights.")
+//let townPlanByAddingLightsToExistingLights = makeTownGrand()
+//stoplights = townPlanByAddingLightsToExistingLights(4, stoplights)
 
+func makeTownGrand(withBudget budget: Int, condition: (Int) -> Bool) -> ((Int, Int)->Int)? {
+    if condition(budget){
+        func buildRoads(byAddingLights lights: Int, toExistingLisghts existingLights: Int) -> Int{
+            return lights + existingLights
+        }
+        return buildRoads
+    } else {
+        return nil
+    }
+}
+
+func evaluate(_ budget: Int) -> Bool {
+    return budget > 10
+}
+
+var stoplights = 4
+
+if let townplanByAddingLightsToExistingLights = makeTownGrand(withBudget: 19, condition: evaluate){
+   stoplights = townplanByAddingLightsToExistingLights(4, stoplights)
+}
+
+
+
+
+print("knowhere has \(stoplights) stoplights.")
