@@ -55,7 +55,69 @@ if let townplanByAddingLightsToExistingLights = makeTownGrand(withBudget: 19, co
    stoplights = townplanByAddingLightsToExistingLights(4, stoplights)
 }
 
-
-
-
 print("knowhere has \(stoplights) stoplights.")
+
+func makePopulationTracker(forIntialPopulation population: Int) -> (Int) -> Int{
+    var totalPopulation = population
+    func totalPopulationTracker(growth: Int)->Int{
+        totalPopulation += growth
+        return totalPopulation
+    }
+    return totalPopulationTracker
+}
+
+var currentPopulation = 5_422
+let growBy = makePopulationTracker(forIntialPopulation: currentPopulation)
+
+growBy(500)
+growBy(500)
+growBy(500)
+currentPopulation = growBy(500)
+
+let anotherGrowBy = growBy
+anotherGrowBy(500)
+
+var bigCityPopulation = 4_061_981
+let bigCityGrowBy = makePopulationTracker(forIntialPopulation: bigCityPopulation)
+bigCityPopulation = bigCityGrowBy(10_000)
+currentPopulation
+
+let precinctPopulations = [1244, 2021, 2157]
+
+let projectPopulations = precinctPopulations.map { (population: Int) -> Int in
+    return population * 2
+}
+
+projectPopulations
+
+let bigProjections = projectPopulations.filter { (projection: Int) -> Bool in
+    return projection > 4000
+}
+
+let bigProjections2 = projectPopulations.filter { $0 > 4000}
+bigProjections2
+
+let totalProjection = projectPopulations.reduce(0) {
+    (accumulatedProjection: Int, precinctProjection: Int) -> Int in
+    return accumulatedProjection + precinctProjection
+}
+
+let totalProjection2 = projectPopulations.reduce(0) { $0 + $1  }
+
+totalProjection
+
+totalProjection2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
