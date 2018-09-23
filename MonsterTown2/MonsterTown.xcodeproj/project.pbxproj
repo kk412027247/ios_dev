@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EEE663321577540000BE13B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE663221577540000BE13B /* main.m */; };
+		9EEE6646215775E8000BE13B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE6645215775E8000BE13B /* main.swift */; };
+		9EEE664D2157773C000BE13B /* Town.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE664C2157773C000BE13B /* Town.swift */; };
+		9EEE664F21577AAE000BE13B /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE664E21577AAE000BE13B /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9EEE662D21577540000BE13B /* CopyFiles */ = {
+		9EEE6640215775E8000BE13B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +25,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9EEE662F21577540000BE13B /* MosterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MosterTown; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EEE663221577540000BE13B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EEE6642215775E8000BE13B /* MonsterTown */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonsterTown; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEE6645215775E8000BE13B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9EEE664C2157773C000BE13B /* Town.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Town.swift; sourceTree = "<group>"; };
+		9EEE664E21577AAE000BE13B /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EEE662C21577540000BE13B /* Frameworks */ = {
+		9EEE663F215775E8000BE13B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,94 +42,99 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EEE662621577540000BE13B = {
+		9EEE6639215775E8000BE13B = {
 			isa = PBXGroup;
 			children = (
-				9EEE663121577540000BE13B /* MosterTown */,
-				9EEE663021577540000BE13B /* Products */,
+				9EEE6644215775E8000BE13B /* MonsterTown */,
+				9EEE6643215775E8000BE13B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EEE663021577540000BE13B /* Products */ = {
+		9EEE6643215775E8000BE13B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EEE662F21577540000BE13B /* MosterTown */,
+				9EEE6642215775E8000BE13B /* MonsterTown */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EEE663121577540000BE13B /* MosterTown */ = {
+		9EEE6644215775E8000BE13B /* MonsterTown */ = {
 			isa = PBXGroup;
 			children = (
-				9EEE663221577540000BE13B /* main.m */,
+				9EEE6645215775E8000BE13B /* main.swift */,
+				9EEE664C2157773C000BE13B /* Town.swift */,
+				9EEE664E21577AAE000BE13B /* Monster.swift */,
 			);
-			path = MosterTown;
+			path = MonsterTown;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EEE662E21577540000BE13B /* MosterTown */ = {
+		9EEE6641215775E8000BE13B /* MonsterTown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EEE663621577540000BE13B /* Build configuration list for PBXNativeTarget "MosterTown" */;
+			buildConfigurationList = 9EEE6649215775E8000BE13B /* Build configuration list for PBXNativeTarget "MonsterTown" */;
 			buildPhases = (
-				9EEE662B21577540000BE13B /* Sources */,
-				9EEE662C21577540000BE13B /* Frameworks */,
-				9EEE662D21577540000BE13B /* CopyFiles */,
+				9EEE663E215775E8000BE13B /* Sources */,
+				9EEE663F215775E8000BE13B /* Frameworks */,
+				9EEE6640215775E8000BE13B /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MosterTown;
-			productName = MosterTown;
-			productReference = 9EEE662F21577540000BE13B /* MosterTown */;
+			name = MonsterTown;
+			productName = MonsterTown;
+			productReference = 9EEE6642215775E8000BE13B /* MonsterTown */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EEE662721577540000BE13B /* Project object */ = {
+		9EEE663A215775E8000BE13B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = tmd;
 				TargetAttributes = {
-					9EEE662E21577540000BE13B = {
+					9EEE6641215775E8000BE13B = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 9EEE662A21577540000BE13B /* Build configuration list for PBXProject "MosterTown" */;
+			buildConfigurationList = 9EEE663D215775E8000BE13B /* Build configuration list for PBXProject "MonsterTown" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9EEE662621577540000BE13B;
-			productRefGroup = 9EEE663021577540000BE13B /* Products */;
+			mainGroup = 9EEE6639215775E8000BE13B;
+			productRefGroup = 9EEE6643215775E8000BE13B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EEE662E21577540000BE13B /* MosterTown */,
+				9EEE6641215775E8000BE13B /* MonsterTown */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EEE662B21577540000BE13B /* Sources */ = {
+		9EEE663E215775E8000BE13B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EEE663321577540000BE13B /* main.m in Sources */,
+				9EEE6646215775E8000BE13B /* main.swift in Sources */,
+				9EEE664F21577AAE000BE13B /* Monster.swift in Sources */,
+				9EEE664D2157773C000BE13B /* Town.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9EEE663421577540000BE13B /* Debug */ = {
+		9EEE6647215775E8000BE13B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,10 +190,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9EEE663521577540000BE13B /* Release */ = {
+		9EEE6648215775E8000BE13B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,47 +244,51 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		9EEE663721577540000BE13B /* Debug */ = {
+		9EEE664A215775E8000BE13B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
-		9EEE663821577540000BE13B /* Release */ = {
+		9EEE664B215775E8000BE13B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EEE662A21577540000BE13B /* Build configuration list for PBXProject "MosterTown" */ = {
+		9EEE663D215775E8000BE13B /* Build configuration list for PBXProject "MonsterTown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EEE663421577540000BE13B /* Debug */,
-				9EEE663521577540000BE13B /* Release */,
+				9EEE6647215775E8000BE13B /* Debug */,
+				9EEE6648215775E8000BE13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EEE663621577540000BE13B /* Build configuration list for PBXNativeTarget "MosterTown" */ = {
+		9EEE6649215775E8000BE13B /* Build configuration list for PBXNativeTarget "MonsterTown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EEE663721577540000BE13B /* Debug */,
-				9EEE663821577540000BE13B /* Release */,
+				9EEE664A215775E8000BE13B /* Debug */,
+				9EEE664B215775E8000BE13B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EEE662721577540000BE13B /* Project object */;
+	rootObject = 9EEE663A215775E8000BE13B /* Project object */;
 }
