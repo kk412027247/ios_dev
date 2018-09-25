@@ -17,6 +17,16 @@ class Zombie: Monster {
         }
     }
     
+    required init(town: Town?, monsterName: String) {
+        walksWithLimp = false
+        isFallingApart = false
+        super.init(town: town, monsterName: monsterName)
+    }
+    
+    deinit{
+        print("Zombie named \(name) is no longer with us.")
+    }
+    
     final override func terrorizeTown(){
         town?.changePopulation(by: -10)
         super.terrorizeTown()

@@ -1,13 +1,13 @@
 import Foundation
 
-var myTown = Town(region:"West", population:10_000, stoplights:6)
+var myTown = Town(population:10, stoplights:6)
 
-myTown.printDescription()
-let myTownSize = myTown.townSize
-print(myTownSize)
-print("Population: \(myTown.population), number of stoplights: \(myTown.numberOfStoplights)")
-myTown.changePopulation(by: 1000000)
-myTown.printDescription()
+myTown?.printDescription()
+let myTownSize = myTown?.townSize
+print(myTownSize ?? "nothing")
+print("Population: \(String(describing: myTown?.population)), number of stoplights: \(String(describing: myTown?.numberOfStoplights))")
+myTown?.changePopulation(by: 1000000)
+myTown?.printDescription()
 
 let genericMonster = Monster(town: myTown,monsterName:"Monster")
 genericMonster.town = myTown
@@ -15,18 +15,30 @@ genericMonster.terrorizeTown()
 
 
 
-let fredTheZombie = Zombie(limp:true,fallingApart:true,town:myTown, monsterName:"Fred")
-fredTheZombie.town = myTown
-fredTheZombie.terrorizeTown()
-fredTheZombie.town?.printDescription()
+var fredTheZombie:Zombie? = Zombie(limp:true,fallingApart:true,town:myTown, monsterName:"Fred")
+fredTheZombie?.town = myTown
+fredTheZombie?.terrorizeTown()
+fredTheZombie?.town?.printDescription()
 
 var convenientZombie = Zombie(limp: true, fallingApart: false)
+
+
+
+print("Victim pool: \(String(describing: fredTheZombie?.victimPool))")
+fredTheZombie?.victimPool = 500
+
+print("Victim pool: \(String(describing: fredTheZombie?.victimPool)); population: \(String(describing: fredTheZombie?.town?.population))")
+
+
+
+fredTheZombie = nil
 
 struct Square{
     static func numberofSide()->Int{
         return 4
     }
 }
+
 
 
 let sides = Square.numberofSide()
@@ -53,13 +65,6 @@ print(personalGreeting)
 let bool: Bool = true
 print(bool)
 
-//func gretting(forName name: String) -> (String) -> String{
-//    func greeting(_ greeting: String) -> String {
-//        return "\(greeting) \(name)"
-//    }
-//    return greeting
-//}
-//print(gretting(forName: "Tom")("hello"))
 
 
 func gretting(_ greeting: String) -> (String) -> String{
@@ -82,17 +87,9 @@ struct Person{
 
 var P = Person()
 
-//let changeName = Person.changeTo
-//let changeNameFromMattTo = changeName(P)
-//
-//Partial application of 'mutating' method is not allowed; calling the function has undefined behavior and will be an error in future Swift versions
+
 
 P.changeTo(firstName: "John", lastName: "Gallagher")
 
 print(P.firstName)
-
-print("Victim pool: \(fredTheZombie.victimPool)")
-fredTheZombie.victimPool = 500
-
-print("Victim pool: \(fredTheZombie.victimPool); population: \(String(describing: fredTheZombie.town?.population))")
 
