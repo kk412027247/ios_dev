@@ -7,26 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EDDA500216F9C0400E2B354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDA4FF216F9C0400E2B354 /* AppDelegate.swift */; };
-		9EDDA502216F9C0400E2B354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDA501216F9C0400E2B354 /* ViewController.swift */; };
-		9EDDA504216F9C0400E2B354 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDA503216F9C0400E2B354 /* Document.swift */; };
-		9EDDA506216F9C0600E2B354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDA505216F9C0600E2B354 /* Assets.xcassets */; };
-		9EDDA509216F9C0600E2B354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDA507216F9C0600E2B354 /* Main.storyboard */; };
+		9EDDA51E2170C95100E2B354 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDA51D2170C95100E2B354 /* AppDelegate.swift */; };
+		9EDDA5202170C95100E2B354 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDA51F2170C95100E2B354 /* ViewController.swift */; };
+		9EDDA5232170C95100E2B354 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDA5212170C95100E2B354 /* Main.storyboard */; };
+		9EDDA5252170C95200E2B354 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDA5242170C95200E2B354 /* Assets.xcassets */; };
+		9EDDA5282170C95200E2B354 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDDA5262170C95200E2B354 /* LaunchScreen.storyboard */; };
+		9EDDA5322170D05500E2B354 /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDDA5312170D05500E2B354 /* TodoList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9EDDA4FC216F9C0400E2B354 /* vocalTextEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vocalTextEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EDDA4FF216F9C0400E2B354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EDDA501216F9C0400E2B354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9EDDA503216F9C0400E2B354 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		9EDDA505216F9C0600E2B354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9EDDA508216F9C0600E2B354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EDDA50A216F9C0600E2B354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9EDDA50B216F9C0600E2B354 /* vocalTextEdit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = vocalTextEdit.entitlements; sourceTree = "<group>"; };
+		9EDDA51A2170C95100E2B354 /* iTahDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTahDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDDA51D2170C95100E2B354 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EDDA51F2170C95100E2B354 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9EDDA5222170C95100E2B354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EDDA5242170C95200E2B354 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EDDA5272170C95200E2B354 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EDDA5292170C95200E2B354 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDDA5312170D05500E2B354 /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9EDDA4F9216F9C0400E2B354 /* Frameworks */ = {
+		9EDDA5172170C95100E2B354 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9EDDA4F3216F9C0400E2B354 = {
+		9EDDA5112170C95100E2B354 = {
 			isa = PBXGroup;
 			children = (
-				9EDDA4FE216F9C0400E2B354 /* vocalTextEdit */,
-				9EDDA4FD216F9C0400E2B354 /* Products */,
+				9EDDA51C2170C95100E2B354 /* iTahDoodle */,
+				9EDDA51B2170C95100E2B354 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9EDDA4FD216F9C0400E2B354 /* Products */ = {
+		9EDDA51B2170C95100E2B354 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9EDDA4FC216F9C0400E2B354 /* vocalTextEdit.app */,
+				9EDDA51A2170C95100E2B354 /* iTahDoodle.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9EDDA4FE216F9C0400E2B354 /* vocalTextEdit */ = {
+		9EDDA51C2170C95100E2B354 /* iTahDoodle */ = {
 			isa = PBXGroup;
 			children = (
-				9EDDA4FF216F9C0400E2B354 /* AppDelegate.swift */,
-				9EDDA501216F9C0400E2B354 /* ViewController.swift */,
-				9EDDA503216F9C0400E2B354 /* Document.swift */,
-				9EDDA505216F9C0600E2B354 /* Assets.xcassets */,
-				9EDDA507216F9C0600E2B354 /* Main.storyboard */,
-				9EDDA50A216F9C0600E2B354 /* Info.plist */,
-				9EDDA50B216F9C0600E2B354 /* vocalTextEdit.entitlements */,
+				9EDDA51D2170C95100E2B354 /* AppDelegate.swift */,
+				9EDDA51F2170C95100E2B354 /* ViewController.swift */,
+				9EDDA5212170C95100E2B354 /* Main.storyboard */,
+				9EDDA5312170D05500E2B354 /* TodoList.swift */,
+				9EDDA5242170C95200E2B354 /* Assets.xcassets */,
+				9EDDA5262170C95200E2B354 /* LaunchScreen.storyboard */,
+				9EDDA5292170C95200E2B354 /* Info.plist */,
 			);
-			path = vocalTextEdit;
+			path = iTahDoodle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9EDDA4FB216F9C0400E2B354 /* vocalTextEdit */ = {
+		9EDDA5192170C95100E2B354 /* iTahDoodle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9EDDA50E216F9C0600E2B354 /* Build configuration list for PBXNativeTarget "vocalTextEdit" */;
+			buildConfigurationList = 9EDDA52C2170C95200E2B354 /* Build configuration list for PBXNativeTarget "iTahDoodle" */;
 			buildPhases = (
-				9EDDA4F8216F9C0400E2B354 /* Sources */,
-				9EDDA4F9216F9C0400E2B354 /* Frameworks */,
-				9EDDA4FA216F9C0400E2B354 /* Resources */,
+				9EDDA5162170C95100E2B354 /* Sources */,
+				9EDDA5172170C95100E2B354 /* Frameworks */,
+				9EDDA5182170C95100E2B354 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = vocalTextEdit;
-			productName = vocalTextEdit;
-			productReference = 9EDDA4FC216F9C0400E2B354 /* vocalTextEdit.app */;
+			name = iTahDoodle;
+			productName = iTahDoodle;
+			productReference = 9EDDA51A2170C95100E2B354 /* iTahDoodle.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9EDDA4F4216F9C0400E2B354 /* Project object */ = {
+		9EDDA5122170C95100E2B354 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = tmd;
 				TargetAttributes = {
-					9EDDA4FB216F9C0400E2B354 = {
+					9EDDA5192170C95100E2B354 = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = 9EDDA4F7216F9C0400E2B354 /* Build configuration list for PBXProject "vocalTextEdit" */;
+			buildConfigurationList = 9EDDA5152170C95100E2B354 /* Build configuration list for PBXProject "iTahDoodle" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,54 +110,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 9EDDA4F3216F9C0400E2B354;
-			productRefGroup = 9EDDA4FD216F9C0400E2B354 /* Products */;
+			mainGroup = 9EDDA5112170C95100E2B354;
+			productRefGroup = 9EDDA51B2170C95100E2B354 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9EDDA4FB216F9C0400E2B354 /* vocalTextEdit */,
+				9EDDA5192170C95100E2B354 /* iTahDoodle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9EDDA4FA216F9C0400E2B354 /* Resources */ = {
+		9EDDA5182170C95100E2B354 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDDA506216F9C0600E2B354 /* Assets.xcassets in Resources */,
-				9EDDA509216F9C0600E2B354 /* Main.storyboard in Resources */,
+				9EDDA5282170C95200E2B354 /* LaunchScreen.storyboard in Resources */,
+				9EDDA5252170C95200E2B354 /* Assets.xcassets in Resources */,
+				9EDDA5232170C95100E2B354 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9EDDA4F8216F9C0400E2B354 /* Sources */ = {
+		9EDDA5162170C95100E2B354 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EDDA502216F9C0400E2B354 /* ViewController.swift in Sources */,
-				9EDDA500216F9C0400E2B354 /* AppDelegate.swift in Sources */,
-				9EDDA504216F9C0400E2B354 /* Document.swift in Sources */,
+				9EDDA5322170D05500E2B354 /* TodoList.swift in Sources */,
+				9EDDA5202170C95100E2B354 /* ViewController.swift in Sources */,
+				9EDDA51E2170C95100E2B354 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9EDDA507216F9C0600E2B354 /* Main.storyboard */ = {
+		9EDDA5212170C95100E2B354 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9EDDA508216F9C0600E2B354 /* Base */,
+				9EDDA5222170C95100E2B354 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EDDA5262170C95200E2B354 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDDA5272170C95200E2B354 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9EDDA50C216F9C0600E2B354 /* Debug */ = {
+		9EDDA52A2170C95200E2B354 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +198,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -207,17 +217,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		9EDDA50D216F9C0600E2B354 /* Release */ = {
+		9EDDA52B2170C95200E2B354 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -249,7 +259,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -262,75 +272,72 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		9EDDA50F216F9C0600E2B354 /* Debug */ = {
+		9EDDA52D2170C95200E2B354 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = vocalTextEdit/vocalTextEdit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VGDZGX9ZCY;
-				INFOPLIST_FILE = vocalTextEdit/Info.plist;
+				INFOPLIST_FILE = iTahDoodle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.tmd.vocalTextEdit;
+				PRODUCT_BUNDLE_IDENTIFIER = org.tmd.iTahDoodle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9EDDA510216F9C0600E2B354 /* Release */ = {
+		9EDDA52E2170C95200E2B354 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = vocalTextEdit/vocalTextEdit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VGDZGX9ZCY;
-				INFOPLIST_FILE = vocalTextEdit/Info.plist;
+				INFOPLIST_FILE = iTahDoodle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
+					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.tmd.vocalTextEdit;
+				PRODUCT_BUNDLE_IDENTIFIER = org.tmd.iTahDoodle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9EDDA4F7216F9C0400E2B354 /* Build configuration list for PBXProject "vocalTextEdit" */ = {
+		9EDDA5152170C95100E2B354 /* Build configuration list for PBXProject "iTahDoodle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EDDA50C216F9C0600E2B354 /* Debug */,
-				9EDDA50D216F9C0600E2B354 /* Release */,
+				9EDDA52A2170C95200E2B354 /* Debug */,
+				9EDDA52B2170C95200E2B354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9EDDA50E216F9C0600E2B354 /* Build configuration list for PBXNativeTarget "vocalTextEdit" */ = {
+		9EDDA52C2170C95200E2B354 /* Build configuration list for PBXNativeTarget "iTahDoodle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EDDA50F216F9C0600E2B354 /* Debug */,
-				9EDDA510216F9C0600E2B354 /* Release */,
+				9EDDA52D2170C95200E2B354 /* Debug */,
+				9EDDA52E2170C95200E2B354 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9EDDA4F4216F9C0400E2B354 /* Project object */;
+	rootObject = 9EDDA5122170C95100E2B354 /* Project object */;
 }
